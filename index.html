@@ -39,6 +39,12 @@
   border-radius: 50%;
 }
 
+.div-left{
+  position: absolute;
+  left: 5px;
+  max-width: 45%
+}
+  
 .div-right {
     position: absolute;
     right: 5px;
@@ -106,8 +112,10 @@ function initComparisons() {
 <h1>Red River Story Map</h1>
 
 <p>Changes in Red River over time (start with native tribes, great raft, Shreve, floods, damming)</p>
-<p></p>
-<p>The images in the comparison below reflect the differences between 1992 (2 years prior to the completion of the dam) and 1995 (the first year after the dam was completed).</p>
+<div class="div-left">
+  <p>The images in the comparison below reflect the differences between 1992 (2 years prior to the completion of the dam) and 1995 (the first year after the dam was completed).</p>
+</div>
+  
 <div class="img-comp-container">
   <div class="img-comp-img">
     <img src="img/RR_92.png" width="600" height="400" alt="Red River in 1992">
